@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 75vh;
+    margin-top: 6%;
+    box-shadow: 0 0 20px 11px rgb(205, 205, 205);
+    margin-left: 15%;
+    border-radius: 25px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.valid{
+    margin-bottom: 4%;
+    color: red;
+    margin-left: 2%;
+    font-size: .8rem;
+}
+.right{
+    border-right: 2px solid rgb(255, 0, 102);
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.left{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.welcome{
+    text-align: center;
+    margin-top: 28%;
+    font-size: 2rem;
+}
+.para{
+    margin-top: 8%;
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+    margin-bottom: 8%;
+    font-size: 1.2rem;
+}
+.signup-btn{
+    margin: auto;
+    display: block;
+    box-shadow: 0px 0px 20px 0px rgb(188, 188, 188);
+    font-size: 1.5rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: rgb(255, 0, 102);
+}
+.signup-btn:hover{
+    background-color: white;
+    border: 1px solid rgb(255, 0, 102);
+    color: rgb(255, 0, 102);
+    transition: all 0.5s ease;
+}
+span{
+    color: rgb(255, 0, 102);
+}
+.sign{
+    margin-top: 10%;
+    width: 60%;
+    margin-left: 15%;
+}
+.bottom{
+    height: 4px;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 15%;
+    background-color: rgb(255, 0, 102);
+}
+.form{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.email, .pass{
+    font-size: 1.3rem;
+    margin-bottom: 2%;
+}
+.input1{
+    font-size: 1.2rem;
+    width: 80%;
+    padding: .5rem;
+    border: none;
+    background-color: white;
+    border: 1px solid rgb(255, 0, 102);
+    color: rgb(255, 0, 102);
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 1%;
+}
+.input2{
+    font-size: 1.2rem;
+    width: 80%;
+    padding: .5rem;
+    border: none;
+    background-color: white;
+    border: 1px solid rgb(255, 0, 102);
+    color: rgb(255, 0, 102);
+    outline: none;
+    border-radius: 10px;
+}
+.btn{
+    margin-top: 10%;
+    transition: all 0.5s ease;
+    margin-left: 20%;
+}
